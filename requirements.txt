@@ -1,0 +1,17 @@
+# GestureHUD PRO v2.0 — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core CV + AI
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+# System monitoring
+psutil>=5.9.0
+
+# System control (mouse, keyboard, screenshot)
+pyautogui>=0.9.54
+
+# Optional: Windows volume control
+# pycaw>=20221227          # Windows only — uncomment if needed
+# comtypes>=1.1.14         # Windows only — uncomment if needed
