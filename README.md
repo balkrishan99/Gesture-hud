@@ -122,6 +122,33 @@ python src/main.py
 
 ---
 
+## 🌐 React Web Application (New Air-Drawing Canvas)
+
+In addition to the Python application, we have introduced a brand new **React-based Air-Drawing Canvas** built with Vite and MediaPipe Tasks Vision. It runs directly in your browser with a sleek Cyberpunk UI!
+
+### Running the Web App
+
+1. Navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the `localhost` URL in your browser and allow webcam access.
+
+### Web Features
+- **Pure JavaScript Hand Tracking** using `@mediapipe/tasks-vision`.
+- **Cyberpunk UI** with neon colors and monospace typography.
+- **Real-time drawing** by holding up your index finger.
+
+---
+
 ## ⌨️ Keyboard Shortcuts
 
 | Key | Action |
