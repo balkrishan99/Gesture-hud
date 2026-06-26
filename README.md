@@ -99,7 +99,7 @@ Fruit Ninja–style gesture game:
 ### 1. Clone
 
 ```bash
-git clone https://github.com/balkrishan99/gesture-hud.git
+git clone https://github.com/YOUR_USERNAME/gesture-hud.git
 cd gesture-hud
 ```
 
