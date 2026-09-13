@@ -3,9 +3,9 @@
 > **Real-time hand tracking · Gesture recognition · System control · Cyberpunk HUD**  
 > Built with OpenCV + MediaPipe — runs on your laptop webcam, zero GPU required.
 
-![Python](https://img.shields.io/badge/Python-3.8–3.11-blue?style=flat-square&logo=python)
+![Python](https://img.shields.io/badge/Python-3.8–3.12-blue?style=flat-square&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-green?style=flat-square)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10%2B-orange?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.x-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Win%20%7C%20Mac%20%7C%20Linux-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
 
@@ -109,7 +109,7 @@ cd gesture-hud
 pip install -r requirements.txt
 ```
 
-> **Python 3.8–3.11 required.** MediaPipe does not yet support 3.12+.
+> **Python 3.8–3.12 supported.**
 
 > **macOS users:** If pyautogui fails, grant Terminal accessibility permissions in  
 > System Settings → Privacy & Security → Accessibility.

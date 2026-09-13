@@ -2,9 +2,9 @@
 # Install with: pip install -r requirements.txt
 
 # Core CV + AI
-opencv-python>=4.8.0
-mediapipe>=0.10.0
-numpy>=1.24.0
+opencv-python>=4.8.0,<5.0.0
+mediapipe==0.10.20
+numpy>=1.24.0,<2.0.0
 
 # System monitoring
 psutil>=5.9.0
