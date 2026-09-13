@@ -25,7 +25,7 @@ try:
     import pyautogui
     pyautogui.FAILSAFE = False
     MOUSE_OK = True
-except ImportError:
+except Exception:
     MOUSE_OK = False
 
 try:
